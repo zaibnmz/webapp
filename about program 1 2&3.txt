@@ -1,0 +1,350 @@
+<!-- program section one frontend dev -->
+
+    <div class="container2">
+        <h1>Potential Technologies to learn ?</h1>
+        <p class="text01">
+            Ideally this will be left to the choice of the candidate, anyways we will assess and provide appropriate
+            guidance to choose best option based on the strength of aspirants.
+        </p>
+        <div>
+            <div class="skills ">
+                <h2 class="container2">Frontend Development</h2>
+                <!-- <p>I would like to showcase My skills.</p> -->
+                <div class="container ">
+                    <div class="boxx html ">
+                        <p>HTML</p>
+                        <div class="in ">
+                        </div>
+                    </div>
+                    <div class="boxx css ">
+                        <p>CSS</p>
+                        <div class="in ">
+                        </div>
+                    </div>
+                    <div class="boxx js ">
+                        <p>Java Script</p>
+                        <div class="in ">
+                        </div>
+                    </div>
+                    <div class="boxx Ajs ">
+                        <p>Angular JS</p>
+                        <div class="in ">
+                        </div>
+                    </div>
+                    <div class="boxx react ">
+                        <p>React JS</p>
+                        <div class="in ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cotain of frame and mobile -->
+    <div class="contain">
+        <div class="frame">
+            <h2>Frameworks</h2>
+        </div>
+        <div class="mob">
+            <h2>Mobile App Platform</h2>
+        </div>
+    </div>
+    <!-- framework & mobilesection -->
+    <div class="split">
+        <div class="skills2">
+            <div class="framework">
+                <div class="boxx net">
+                    <p>ASP .net</p>
+                    <div class="in ">
+                    </div>
+                </div>
+                <div class="boxx boot">
+                    <p>Spring boot</p>
+                    <div class="in ">
+                    </div>
+                </div>
+                <div class="boxx nodejs">
+                    <p>Express - Node.js</p>
+                    <div class="in ">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile">
+                <div class="boxx Flutter">
+                    <p>Flutter</p>
+                    <div class="in ">
+                    </div>
+                </div>
+                <div class="boxx kotlin">
+                    <p>Kotlin Multiplatform Mobile</p>
+                    <div class="in ">
+                    </div>
+                </div>
+                <div class="boxx reactNative">
+                    <p>React Native</p>
+                    <div class="in ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+-------------------------------------------(css)-----------------------------------------------------------------
+
+
+
+
+/* ----------------section 1 program-------------------- */
+.container2 {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 0 3rem 0;
+}
+
+.text01 {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    text-align: center;
+    padding: 1.5rem 10rem 1.5rem 10rem;
+}
+
+
+/*potentional*/
+
+.skills {
+    background: white;
+    width: 100%;
+    /* padding: 50px 0px; */
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.skills p {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 50px
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+    grid-gap: 1rem;
+    align-items: center;
+    /* margin-top: 5rem; */
+    /* background: whitesmoke; */
+    justify-content: space-evenly;
+}
+
+.boxx {
+    height: 250px;
+    width: 100%;
+    /* background: whitesmoke; */
+    transition: all 0.8s;
+    cursor: pointer;
+    display: flex;
+    align-items: top;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+/* -----------------section1 img part------------- */
+.html {
+    background: url(./img/html.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.html:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.css {
+    background: url(./img/css.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.css:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.js {
+    background: url(./img/js.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.js:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.Ajs {
+    background: url(./img/angularjs.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.Ajs:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.react {
+    background: url(./img/react.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.react:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.in {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/*------------------------- section 2 & 3 -------------------------*/
+/* contain text part */
+.contain {
+ display: flex;
+ background-color: whitesmoke;
+}
+
+.frame {
+    width: 50%;
+    text-align: center;
+}
+.mob {
+    text-align: center;
+    width: 50%;
+}
+
+.framework {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+    grid-gap: 1rem;
+    align-items: center;
+    /* margin-top: 5rem; */
+    /* background: whitesmoke; */
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.mobile{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+    grid-gap: 1rem;
+    align-items: center;
+    /* margin-top: 5rem; */
+    /* background: whitesmoke; */
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+/*---------------- section 2&3 image part------------------ */
+
+.skills2 {
+    background: white;
+    width: 100%;
+    /* padding: 50px 0px; */
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.skills2 p {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 50px
+}
+
+
+.net {
+    background: url(./img/ASPnet.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.net:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.boot {
+    background: url(./img/boot.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.boot:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.nodejs {
+    background: url(./img/nodejs.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.nodejs:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+.Flutter {
+    background: url(./img/Flutter.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.Flutter:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.kotlin {
+    background: url(./img/kotlin.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.kotlin:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.reactNative {
+    background: url(./img/reactNative.png) center center no-repeat;
+    background-size: 100%;
+}
+
+.reactNative:hover {
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+
+
+/* ----------------------------------- */
